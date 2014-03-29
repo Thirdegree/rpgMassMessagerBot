@@ -29,7 +29,7 @@ def main():
 			continue
 		done.append(post_id)
 		print author_name
-		if author_name == "thirdegree":
+		if author_name == "nyancat":
 			send_messages(title, text)
 			print "sending messages"
 			sleep(2)
