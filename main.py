@@ -4,7 +4,7 @@ from time import sleep
 import json
 
 
-r = praw.Reddit("binaryToTextBot by /r/thirdegree")
+r = praw.Reddit("rpgMessengerBot by /r/thirdegree")
 
 def _login():
 	USERNAME = raw_input("Username?\n> ")
